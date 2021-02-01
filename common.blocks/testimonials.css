@@ -1,0 +1,133 @@
+@import "../root.css";
+
+.testimonials {
+    position: relative;
+    width: 1118px;
+    height: 709px;
+    margin-top: 150px;
+    margin-left: 2px;
+    background: var(--c);
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.testimonials-overlay-left {
+    position: absolute;
+    top: 0;
+    width: 93px;
+    height: 709px;
+    background: linear-gradient(to right, var(--c), rgba(255,0,0,0));
+}
+
+.testimonials-overlay-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 240px;
+    height: 709px;
+    background: linear-gradient(to left, var(--c), rgba(255,0,0,0));
+}
+
+.testimonials-carousel {
+    padding: 0 93px;
+    display: flex;
+    width: 2826px;
+}
+
+.testimonial-card {
+    display: flex;
+    align-items: start;
+    background: white;
+    width: 505px;
+    height: 220px;
+    border-radius: 20px;
+    margin-right: 20px;
+    padding: 60px 70px 50px 70px;
+    box-shadow: 0 20px 0 0 rgb(138,86,219);
+}
+
+.testimonial-details {
+    padding: 20px 0 0 30px;
+}
+
+.testimonial-details p {
+    width: 385px;
+    font-weight: 400;
+    line-height: 32.4px;
+}
+
+.testimonial-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px 76px 0 93px;
+}
+
+.testimonial-nav-dots {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 55px;
+}
+
+.testimonial-dot {
+    width: 5px;
+    height: 5px;
+    background: white;
+    border-radius: 50%;
+}
+
+.testimonial-nav-arrows {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80px;
+}
+
+.testimonial-active {
+    width: 10px;
+    height: 10px;
+    background: var(--d);
+}
+
+.testimonials .btn-arrow-point {
+    background: white;
+}
+
+.testimonials .btn-arrow-right .btn-arrow-point-top {
+    transform: rotate(50deg);
+    bottom: 1px;
+}
+
+.testimonials .btn-arrow-right .btn-arrow-vertical {
+    width: 20px;
+    height: 2px;
+    background: white;
+    border-radius: 1px;
+}
+
+.testimonials .btn-arrow-right .btn-arrow-point-bottom {
+    transform: rotate(-50deg);
+    top: 1px;
+}
+
+.testimonials .btn-arrow-left .btn-arrow-point {
+    left: -1px;
+}
+
+.testimonials .btn-arrow-left .btn-arrow-point-top {
+    transform: rotate(-50deg);
+    bottom: 1px;
+}
+
+.testimonials .btn-arrow-left .btn-arrow-vertical {
+    width: 40px;
+    height: 2px;
+    background: white;
+    border-radius: 1px;
+}
+
+.testimonials .btn-arrow-left .btn-arrow-point-bottom {
+    transform: rotate(50deg);
+    top: 1px;
+}

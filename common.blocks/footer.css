@@ -1,0 +1,99 @@
+@import "root.css";
+
+footer {
+    margin-top: 150px;
+}
+
+.full-width-hr {
+    position: absolute;
+    left: 0;
+    width: 99vw;
+    height: 2px;
+    background: rgba(var(--c-rgb),0.2);
+}
+
+.request-demo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.try-for-free h2 {
+    margin: 0 0 20px 0;
+}
+
+.footer-btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pink-btn {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 28.8px;
+    width: 170px;
+    background: var(--d);
+    color: white;
+    margin-right: 30px;
+}
+
+.footer-nav {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.footer-nav .nav {
+    list-style: none;
+    padding-left: 0;
+    line-height: 40px;
+}
+
+.company-brand {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.company-name {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 32px;
+    padding-left: 20px;
+}
+
+.nav-address {
+    padding-top: 65px;
+    font-weight: 500;
+    line-height: 28.8px;
+}
+
+.nav-contact {
+    padding-top: 10px;
+}
+
+.footer-nav-heading {
+    font-size: 16px;
+    line-height: 25.6px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.social-media ul {
+    display: flex;
+    align-items: flex-start;
+}
+
+.nav-social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--b);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 14px;
+}

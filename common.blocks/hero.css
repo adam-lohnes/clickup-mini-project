@@ -1,0 +1,24 @@
+@import "root.css";
+
+.hero {
+    position: relative;
+    height: 564px;
+    margin-top: 130px;
+}
+
+.hero p {
+    margin-bottom: 50px;
+}
+
+.hero-img {
+    position: absolute;
+    bottom: 0;
+    right: -128px;
+    z-index: -10;
+}
+
+.purple-btn {
+    width: 170px;
+    background: var(--c);
+    color: white;
+}

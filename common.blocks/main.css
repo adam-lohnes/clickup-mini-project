@@ -1,0 +1,161 @@
+@import "root.css";
+
+html {
+    font-family: Avenir, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28.8px;
+    color: var(--a);
+    width: 1600px;
+    background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+    margin: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0 240px 89px 240px;
+}
+
+a {
+    color: var(--c);
+    text-decoration: none;
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 80px;
+    line-height: 88px;
+    color: var(--b);
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: var(--b);
+    margin: 125px 0 40px 0;
+}
+
+.h2-white {
+    color: white;
+    margin: 0;
+    padding: 109px 0 88px 93px;
+}
+
+h3 {
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 50px;
+    color: var(--b);
+    padding-top: 49px;
+    margin: 0;
+}
+
+h4 {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 28.8px;
+    letter-spacing: 0.5%;
+    margin: 0;
+}
+
+h5 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22.4px;
+    letter-spacing: 1%;
+    color: var(--c);
+    margin: 0 0 19px 0;
+}
+
+p {
+    margin: 0;
+}
+
+.logo {
+    width: 49px;
+    height: 35px;
+}
+
+.logo:before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: var(--c);
+}
+
+.logo:after {
+    content: "";
+    display: inline-block;
+    margin-left: 9px;
+    width: 20px;
+    height: 35px;
+    border-radius: 10px;
+    background: var(--d);
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    font-family: Avenir, Helvetica, sans-serif;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    color: var(--b);
+}
+
+.request-demo-btn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: white;
+    width: 210px;
+    letter-spacing: 0.005em;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+}
+
+.btn-arrow {
+    position: relative;
+}
+
+.btn-arrow-right {
+    justify-content: right;
+}
+
+.btn-arrow-point {
+    position: relative;
+    width: 9px;
+    height: 2px;
+    background: var(--c);
+    border-radius: 1px;
+    left: 12px;
+}
+
+.btn-arrow-right .btn-arrow-point-top {
+    transform: rotate(50deg);
+    bottom: 1px;
+}
+
+.btn-arrow-vertical {
+    width: 20px;
+    height: 2px;
+    background: var(--c);
+    border-radius: 1px;
+}
+
+.btn-arrow-right .btn-arrow-point-bottom {
+    transform: rotate(-50deg);
+    top: 1px;
+}

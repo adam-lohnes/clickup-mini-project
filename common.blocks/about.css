@@ -1,0 +1,14 @@
+@import "root.css";
+
+.about {
+    display: flex;
+    width: 1117px;
+    height: 560px;
+    background: rgba(var(--d-rgb),0.15);
+    border-radius: 50px;
+    margin-top: 102px;
+}
+
+.about-img {
+    margin: 32px 62px 24px 11px;
+}

@@ -1,0 +1,201 @@
+@import "root.css";
+
+.features {
+    margin-top: 150px;
+}
+
+.features h2 {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.features p {
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.features-grid p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+}
+
+.features-grid {
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 32px;
+    right: 16px;
+    row-gap: 50px;
+}
+
+.feature {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 358px;
+}
+
+.feature .bg {
+    position: absolute;
+    z-index: -10;
+    right: 30px;
+}
+
+.rect-shape {
+    position: absolute;
+    right: 0px;
+}
+
+.rounded-trap {
+	position: relative;
+}
+
+.glob-shape {
+    position: absolute;
+}
+
+.ellipse {
+    position: absolute;
+    border: 1.5px solid white;
+    border-radius: 100%;
+}
+
+.search-data-rect {
+    background-color: var(--e);
+}
+
+.search-data-glob {
+    top: 20px;
+    right: 12.01px;
+}
+
+.search-data-ellipse {
+    transform: rotate(20.72deg);
+    width: 33.7px;
+    height: 19.91px;
+    top: 43.88px;
+    right: 117.37px;
+}
+
+.all-hours-rect {
+    background-color: var(--c);
+}
+
+.all-hours-glob {
+    transform: rotate(180deg) scale(1.09);
+    top: 203px;
+    right: 35px;
+}
+
+.print-out-rect {
+    background-color: var(--d);
+}
+
+.print-out-ellipse {
+    transform: rotate(150deg);
+    width: 68.05px;
+    height: 40.21px;
+    top: 37px;
+    right: 32.96px;
+}
+
+.security-code-rect {
+    background-color: var(--f);
+}
+
+.security-code-glob {
+    top: -10px;
+    right: 61px;
+}
+
+.security-code-ellipse {
+    transform: rotate(20.72deg);
+    width: 61.85px;
+    height: 36.55px;
+    top: 285px;
+    right: 35px;
+}
+
+.rounded-rect {
+	height: 358px;
+	width: 340px;
+	border-radius: 0 50px 50px 0;
+    opacity: 0.1;
+}
+
+.rounded-rect::before {
+	content: "";
+	background-color: inherit;
+	width: 100px;
+	height: 362px;
+	border-radius: 50px;
+	position: absolute;
+	transform: rotate(10deg);
+	top: -2px;
+	left: -69px;
+}
+
+.rounded-rect::after {
+	content: "";
+	background-color: inherit;
+	width: 200px;
+	height: 100px;
+	border-radius: 50px;
+	position: absolute;
+	bottom: 0px;
+	left: -92px;
+}
+
+.feature .bg img {
+    position: absolute;
+}
+
+.search-data-img {
+    position: relative;
+    top: 73px;
+}
+
+.all-hours-access-img {
+    position: relative;
+    top: 71px;
+    left: -13px;
+}
+
+.print-out-img {
+    position: relative;
+    top: 123px;
+    left: -19px;
+}
+
+.security-code-img {
+    position: relative;
+    top: 86px;
+    left: -8px;
+}
+
+.feature-info {
+    position: relative;
+    right: 80px;
+    width: 220px;
+}
+
+.feature-info p {
+    text-align: left;
+    margin: 0;
+    padding-top: 20px;
+    height: 160px;
+}
+
+.features-btn {
+    display: flex;
+    align-items: center;
+    width: auto;
+    background: transparent;
+    padding: 20px 0 0 0;
+}
+
+.features .btn-arrow-right {
+    padding-left: 20px;
+}
