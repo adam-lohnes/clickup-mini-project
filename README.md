@@ -8,10 +8,10 @@ The instructions given are as follows:
 
 *Here are some guidelines:*
 1. [BEM](https://en.bem.info/methodology/key-concepts/)
-2. Pure html/css. We do not use Bootstrap as well as other exterior frameworks.
-3. Any preprocessor at your choice. We use SCSS.
-4. We're looking for pixel perfect and attention to details.
-5. Using grunt/gulp/webpack will be a benefit.
+1. Pure html/css. We do not use Bootstrap as well as other exterior frameworks.
+1. Any preprocessor at your choice. We use SCSS.
+1. We're looking for pixel perfect and attention to details.
+1. Using grunt/gulp/webpack will be a benefit.
 
 **FAQ**
 *We do not use REACT*
