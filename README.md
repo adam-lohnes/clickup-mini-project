@@ -1,10 +1,9 @@
 # Clickup CSS Mini Project
-## This is my submission for the ClickUp's CSS mini project.
+## This is my submission for ClickUp's CSS mini project.
 
 The instructions given are as follows:
 
 *Turn the design into responsive html/css.*
-*Submit your work to bls@clickup.com, aaron@clickup.com, konstantin@clickup.com, and alex@clickup.com.*
 
 *Here are some guidelines:*
 1. [BEM](https://en.bem.info/methodology/key-concepts/)
